@@ -1,23 +1,37 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+
+
 
 function App() {
   return (
     <div className="App">
+    <style>
+    @import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP');
+    </style>
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <h1>Mir 
+        <b> Rohan</b>
+        <b> Afsan</b> 
+      </h1>
+      <p>
+        <b>Computer Science Student, </b>
+        '22
+      </p>
+      <ul>
+      <li>
+      <a href="https://www.linkedin.com/in/mir-afsan-15a33715b/">
+      <b>
+      <i class="fa fa-linkedin"></i>
+      </b>
+      </a>
+      </li>
+      <li>
+      <a href="https://github.com/rohanafsan">
+      <i class="fa fa-github"></i>
+      </a>
+      </li>
+      </ul>
       </header>
     </div>
   );
