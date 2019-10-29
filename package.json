@@ -17,7 +17,9 @@
     "test": "react-scripts test",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "set-upstream": "set-upstream.sh",
+    "push-change": "push-change.sh"
   },
   "eslintConfig": {
     "extends": "react-app"

@@ -14,6 +14,8 @@ function App() {
         <b> Rohan</b>
         <b> Afsan</b> 
       </h1>
+      <h2>Software Developer, Cinephile, Gamer 
+      </h2>
       <p>
         <b>Computer Science Student, </b>
         '22
